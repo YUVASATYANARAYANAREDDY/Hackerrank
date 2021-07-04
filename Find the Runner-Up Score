@@ -1,0 +1,8 @@
+a=int(input())
+item=input().split()
+item=list(map(int,item))
+big=max(item)
+for i in range(a):
+    if big==item[i]:
+        item[i]=-999
+print(max(item)) 
