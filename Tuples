@@ -1,0 +1,5 @@
+n=int(input())
+li=[]
+item=input().split()
+item=tuple(map(int,item))
+print(hash(item))
